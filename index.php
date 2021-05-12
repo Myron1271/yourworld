@@ -46,7 +46,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-             <h1><a href="index.php">BigPP<span>.</span></a></h1>
+             <h1><a href="index.php">BigPP<span style="color: #3cc187">.</span></a></h1>
              <!-- Uncomment below if you prefer to use an image logo
              <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
         </div>
