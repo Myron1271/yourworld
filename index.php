@@ -46,7 +46,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-             <h1><a href="index.php">BigPP<span style="color: #3cc187">.</span></a></h1>
+             <h1><a href="index.php">YourWorld<span style="color: #3cc187">.</span></a></h1>
              <!-- Uncomment below if you prefer to use an image logo
              <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
         </div>
@@ -93,25 +93,29 @@
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
-                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="flip-right">
+                        <a href="https://pvanhorne.nl/" target="_blank">
+                        <img src="assets/img/clients/pvhlogo.svg" class="img-fluid" alt="" data-aos="flip-right"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
-                        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100">
+                        <a  href="https://www.ogvo.nl/valuascollege/" target="_blank">
+                            <img style="width: 100%; height: 100%" src="assets/img/clients/valuascollegelogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
-                        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200">
+                        <a  href="https://theresialyceum.nl/" target="_blank">
+                            <img style="width: 100%; height: 100%" src="assets/img/clients/theresialyceumlogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
-                        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="300">
+                        <a  href="http://helenpark.nl/" target="_blank">
+                            <img src="assets/img/clients/helenparkhurstlogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="300"></a>
                     </div>
                 </div>
 
