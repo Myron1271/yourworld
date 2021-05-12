@@ -451,7 +451,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #fdc134;
+  background: #3cc187;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1206,7 +1206,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #fdc134;
+  background: #3cc187;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1214,7 +1214,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fdd067;
+  background: #2e9568;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1310,7 +1310,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #fdc134;
+  background: #3cc187;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1318,7 +1318,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #fcb102;
+  background: #2e9568;
 }
 
 #footer .footer-top .social-links {
@@ -1341,7 +1341,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #fcb102;
+  background: #3cc187;
   color: #fff;
   text-decoration: none;
 }

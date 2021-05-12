@@ -9,12 +9,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>YOUR WORLD</title>
+    <title>YourWorld</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/icon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -54,10 +54,10 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+                <li><a class="nav-link scrollto" href="#about">Over ons</a></li>
                 <li><a class="nav-link scrollto" href="#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                <li><a class="getstarted scrollto" href="#about">Account</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -71,9 +71,9 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
-                <h1>Your new digital experience with Bocor</h1>
-                <h2>We are team of talented designers making websites with Bootstrap</h2>
-                <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                <h1>YourWorld, your life.</h1>
+                <h2>Wij zijn een gepassioneerd team van HBO-ICT studenten met als missie om de wereld op een positieve manier te veranderen.</h2>
+                <a href="#about" class="btn-get-started scrollto">Maak een account aan</a>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
                 <img src="assets/img/hero-img.png" class="img-fluid" alt="">
@@ -121,13 +121,15 @@
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
-                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400">
+                        <a  href="https://dacapokijktnaarmij.nl/" target="_blank">
+                            <img src="assets/img/clients/dacapo-logo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
-                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500">
+                        <a  href="https://fontys.nl/Studeren/Opleidingen/HBO-ICT.htm" target="_blank">
+                            <img src="assets/img/clients/fontysictlogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500"></a>
                     </div>
                 </div>
 
@@ -144,9 +146,11 @@
                 <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
                 <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
                     <div class="content d-flex flex-column justify-content-center">
-                        <h3 data-aos="fade-in" data-aos-delay="100">Voluptatem dignissimos provident quasi</h3>
+                        <h3 data-aos="fade-in" data-aos-delay="100">Over ons</h3>
                         <p data-aos="fade-in">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                            Wij vinden het belangrijk om op jonge leeftijd al bewustzijn te creeëren.
+                            We willen kinderen en jongeren stimuleren om verstandig met hun geld om te gaan,
+                            en tegelijkertijd iets goeds te doen voor het klimaat.
                         </p>
                         <div class="row">
                             <div class="col-md-6 icon-box" data-aos="fade-up">
@@ -183,15 +187,15 @@
 
             <div class="section-title">
                 <h2 data-aos="fade-in">Team</h2>
-                <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p data-aos="fade-in">Ontmoet de gezichten achter onze innovatie, maak kennis met ons team!</p>
             </div>
 
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up">
-                        <div class="pic"><img src="assets/img/team/team-1.jpg" alt=""></div>
-                        <h4>Walter White</h4>
-                        <span>Chief Executive Officer</span>
+                        <div class="pic"><img src="assets/img/team/fotomyron.png" alt=""></div>
+                        <h4>Myron Seelen</h4>
+                        <span>Media Designer</span>
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
@@ -203,9 +207,9 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
-                        <div class="pic"><img src="assets/img/team/team-2.jpg" alt=""></div>
-                        <h4>Sarah Jhinson</h4>
-                        <span>Product Manager</span>
+                        <div class="pic"><img src="assets/img/team/fotomette.png" alt=""></div>
+                        <h4>Mette Ghijsen</h4>
+                        <span>Media Designer</span>
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
@@ -218,8 +222,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
                         <div class="pic"><img src="assets/img/team/team-3.jpg" alt=""></div>
-                        <h4>William Anderson</h4>
-                        <span>CTO</span>
+                        <h4>Cas Esselink</h4>
+                        <span>Software Developer</span>
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
@@ -232,8 +236,8 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
                         <div class="pic"><img src="assets/img/team/team-4.jpg" alt=""></div>
-                        <h4>Amanda Jepson</h4>
-                        <span>Accountant</span>
+                        <h4>Toby Melskens</h4>
+                        <span>Software Developer</span>
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
@@ -242,6 +246,35 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="pic"><img src="assets/img/team/fotojulian.png" alt=""></div>
+                        <h4>Julian Janssen</h4>
+                        <span>Software Developer</span>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="pic"><img src="assets/img/team/fototeddy.png" alt=""></div>
+                        <h4>Teddy Kuijs</h4>
+                        <span>Server and Securiy Developer</span>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -381,7 +414,7 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p> Heb je vragen, of wil je meer informatie over onze leerpakketen, neem dan vooral contact met ons op!</p>
             </div>
 
             <div class="row">
@@ -393,21 +426,21 @@
                             <div class="info-box" data-aos="fade-up">
                                 <i class="bx bx-map"></i>
                                 <h3>Our Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p> Rachelsmolen 5612, 5623 PE Eindhoven </p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-envelope"></i>
                                 <h3>Email Us</h3>
-                                <p>info@example.com<br>contact@example.com</p>
+                                <p>info@yourworld.nl</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-phone-call"></i>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                                <p>+31 0495 123456</p>
                             </div>
                         </div>
                     </div>
@@ -455,15 +488,15 @@
 
             <div class="row  justify-content-center">
                 <div class="col-lg-6">
-                    <h3>Bocor</h3>
-                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                    <h3>YourWorld</h3>
+                    <p>Abonneer je op onze nieuwsbrief om op te hoogte te blijven van alle veranderingen omtrent ons programma.</p>
                 </div>
             </div>
 
             <div class="row footer-newsletter justify-content-center">
                 <div class="col-lg-6">
                     <form action="" method="post">
-                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                        <input type="email" name="email" placeholder="Typ hier je Email"><input type="submit" value="Abonneer">
                     </form>
                 </div>
             </div>
@@ -481,14 +514,7 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>Bocor</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            &copy; Copyright <strong><span>YourWorld</span></strong>. All Rights Reserved
         </div>
     </div>
 </footer><!-- End Footer -->
