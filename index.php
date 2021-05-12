@@ -1,7 +1,5 @@
 <?php
 
-    echo "Hallo moeder";
-
 ?>
 
 <!DOCTYPE html>
