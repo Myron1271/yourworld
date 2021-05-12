@@ -964,7 +964,7 @@ section {
   position: absolute;
   top: -11px;
   left: calc(50% - 49px);
-  background: #fdc134;
+  background: #3cc187;
   color: #fff;
   text-align: center;
   line-height: 1;
@@ -982,7 +982,7 @@ section {
 
 .pricing h4 {
   font-size: 46px;
-  color: #fdc134;
+  color: #3cc187;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -1007,7 +1007,7 @@ section {
 }
 
 .pricing ul i {
-  color: #fdc134;
+  color: #3cc187;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1038,21 +1038,21 @@ section {
 }
 
 .pricing .get-started-btn:hover {
-  background: #fdc134;
+  background: #3cc187;
 }
 
 .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
-  border: 1px solid #fdc134;
+  border: 1px solid #3cc187;
 }
 
 .pricing .featured .get-started-btn {
-  background: #fdc134;
+  background: #3cc187;
 }
 
 .pricing .featured .get-started-btn:hover {
-  background: #fdcd5c;
+  background: #2e9568;
 }
 
 @media (max-width: 992px) {

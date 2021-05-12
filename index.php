@@ -292,35 +292,32 @@
             <div class="row no-gutters">
 
                 <div class="col-lg-4 box" data-aos="zoom-in">
-                    <h3>Free</h3>
-                    <h4>$0<span>per month</span></h4>
+                    <h3>Student</h3>
+                    <h4>€0<span>per maand</span></h4>
                     <ul>
-                        <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                        <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                        <li><i class="bx bx-check"></i> Een account voor één persoon</li>
+                        <li><i class="bx bx-check"></i> Zelfstandig leren om verantwoordelijk met je geld om te gaan </li>
+                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal één apparaat</li>
                     </ul>
                     <a href="#" class="get-started-btn">Get Started</a>
                 </div>
 
                 <div class="col-lg-4 box featured" data-aos="zoom-in">
                     <span class="featured-badge">Featured</span>
-                    <h3>Business</h3>
-                    <h4>$29<span>per month</span></h4>
+                    <h3>Standaard onderwijspakket</h3>
+                    <h4>€15<span>per maand</span></h4>
                     <ul>
-                        <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                        <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                        <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                        <li><i class="bx bx-check"></i> Studentenaccounts voor een hele klas tot en met 35 personen</li>
+                        <li><i class="bx bx-check"></i> In groepsverband leren om verantwoordelijk met je geld om te gaan</li>
+                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende</li>
+                        <li><i class="bx bx-check"></i> Een docentenaccount als klassebeheerder</li>
                     </ul>
                     <a href="#" class="get-started-btn">Get Started</a>
                 </div>
 
                 <div class="col-lg-4 box" data-aos="zoom-in">
-                    <h3>Developer</h3>
-                    <h4>$49<span>per month</span></h4>
+                    <h3>Voortgezet onderwijspakket</h3>
+                    <h4>€30<span>per maand</span></h4>
                     <ul>
                         <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
                         <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
@@ -414,7 +411,7 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p> Heb je vragen, of wil je meer informatie over onze leerpakketen, neem dan vooral contact met ons op!</p>
+                <p> Heb je vragen, of wil je meer informatie over onze onderwijspakketen, neem dan vooral contact met ons op!</p>
             </div>
 
             <div class="row">
