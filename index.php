@@ -30,40 +30,13 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-    * Template Name: Bocor - v4.2.0
-    * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
 <body>
 
-<!-- ======= Header ======= -->
 <header id="header">
-    <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-             <h1><a href="index.php">YourWorld<span style="color: #3cc187">.</span></a></h1>
-             <!-- Uncomment below if you prefer to use an image logo
-             <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-        </div>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">Over ons</a></li>
-                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#about">Account</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
-    </div>
-</header><!-- End Header -->
+    <?php include_once 'inc/header.php'?>
+</header>
 
 <!-- ======= Hero Section ======= -->
 <section id="hero">
@@ -72,71 +45,68 @@
         <div class="row d-flex align-items-center">
             <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
                 <h1>YourWorld, your life.</h1>
-                <h2>Wij zijn een gepassioneerd team van HBO-ICT studenten met als missie om de wereld op een positieve manier te veranderen.</h2>
+                <h2 style="margin-left: 6px">Wij zijn een gepassioneerd team van HBO-ICT studenten met als missie om de wereld op een positieve manier te veranderen.</h2>
                 <a href="#about" class="btn-get-started scrollto">Maak een account aan</a>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                <img id="mainlogo" src="assets/img/hero-img.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 
-</section><!-- End Hero -->
+</section>
 
 <main id="main">
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
         <div class="container">
-
             <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
                         <a href="https://pvanhorne.nl/" target="_blank">
-                        <img src="assets/img/clients/pvhlogo.svg" class="img-fluid" alt="" data-aos="flip-right"></a>
+                        <img style="width: 80%; height: 80%" src="assets/img/clients/pvhlogo.svg" class="img-fluid" alt="" data-aos="flip-right"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
                         <a  href="https://www.ogvo.nl/valuascollege/" target="_blank">
-                            <img style="width: 100%; height: 100%" src="assets/img/clients/valuascollegelogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100"></a>
+                            <img style="width: 100%; height: 100%" src="assets/img/clients/valuascollegelogo.png" class="img-fluid" alt="" data-aos="flip-right"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
                         <a  href="https://theresialyceum.nl/" target="_blank">
-                            <img style="width: 100%; height: 100%" src="assets/img/clients/theresialyceumlogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200"></a>
+                            <img style="width: 100%; height: 100%" src="assets/img/clients/theresialyceumlogo.png" class="img-fluid" alt="" data-aos="flip-right"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
                         <a  href="http://helenpark.nl/" target="_blank">
-                            <img src="assets/img/clients/helenparkhurstlogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="300"></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="client-logo">
-                        <a  href="https://dacapokijktnaarmij.nl/" target="_blank">
-                            <img src="assets/img/clients/dacapo-logo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400"></a>
+                            <img style="width: 80%; height: 80%" src="assets/img/clients/helenparkhurstlogo.png" class="img-fluid" alt="" data-aos="flip-right"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="client-logo">
                         <a  href="https://fontys.nl/Studeren/Opleidingen/HBO-ICT.htm" target="_blank">
-                            <img src="assets/img/clients/fontysictlogo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500"></a>
+                            <img style="width: 70%; height: 70%" src="assets/img/clients/fontysictlogo.png" class="img-fluid" alt="" data-aos="flip-right"></a>
                     </div>
                 </div>
 
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="client-logo">
+                        <a  href="https://dacapokijktnaarmij.nl/" target="_blank">
+                            <img style="width: 100%; height: 100%" src="assets/img/clients/dacapo-logo.png" class="img-fluid" alt="" data-aos="flip-right"></a>
+                    </div>
+                </div>
             </div>
-
         </div>
-    </section><!-- End Clients Section -->
+    </section>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
@@ -174,12 +144,12 @@
                                 <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
                             </div>
                         </div>
-                    </div><!-- End .content-->
+                    </div>
                 </div>
             </div>
 
         </div>
-    </section><!-- End About Section -->
+    </section>
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -278,7 +248,7 @@
             </div>
 
         </div>
-    </section><!-- End Team Section -->
+    </section>
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg">
@@ -468,13 +438,11 @@
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
                 </div>
-
             </div>
-
         </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-</main><!-- End #main -->
+</main>
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
@@ -514,9 +482,11 @@
             &copy; Copyright <strong><span>YourWorld</span></strong>. All Rights Reserved
         </div>
     </div>
-</footer><!-- End Footer -->
+</footer>
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>
@@ -525,11 +495,32 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!-- Template Main JS File -->
+<!-- Main JS File -->
 <script src="assets/js/main.js"></script>
 
-</body>
+<!-- Sticky navbar on scroll -->
+<script>
+    window.onscroll = function () {stickyHeader()};
 
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+
+    function stickyHeader()
+    {
+        if(window.pageYOffset > sticky)
+        {
+            header.classList.add("sticky");
+        }
+        else
+        {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
+</body>
 </html>
 
