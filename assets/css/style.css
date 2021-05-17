@@ -932,6 +932,18 @@ section {
   margin: 0 2px;
 }
 
+.FormText
+{
+  font-weight: bold;
+  font-size: 37px;
+  color: #37517e;
+}
+
+#RegisterText:hover
+{
+  color: yellow;
+}
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
