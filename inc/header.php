@@ -1,3 +1,7 @@
+<?php
+include_once 'func/database.func.php';
+?>
+
 <!-- Template Main CSS File -->
 <link href="/assets/css/style.css" rel="stylesheet">
 
@@ -14,7 +18,7 @@
                 <li><a class="nav-link scrollto" href="#about">Over Ons</a></li>
                 <li><a class="nav-link scrollto" href="#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li class="nav-item dropdown" style="font-size: 30px;">
+                <li class="nav-item dropdown">
                     <a class="account nav-link dropdown-toggle" href="#" id="Account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
                     <div style="text-align: center;" id="DropdownMenuShow" class="dropdown-menu" aria-labelledby="AccountIcon">
                         <a class="dropdown-item" id="NavBarTextDropDown" href="./login.php">Inloggen</a>
@@ -23,7 +27,14 @@
                         <a class="dropdown-item" id="NavBarTextDropDown" href="func/logout.func.php">Uitloggen</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="AccountName" href="./account.php"></a>
+                </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
+        <script type="text/javascript">
+            var AccountName = '<?php echo $_SESSION['user'];?>';
+            document.getElementById('AccountName').innerHTML= AccountName;
+        </script>
     </div>
