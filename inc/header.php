@@ -1,5 +1,4 @@
 <?php
-include_once 'func/database.func.php';
 ?>
 
 <!-- Template Main CSS File -->

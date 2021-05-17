@@ -1,4 +1,5 @@
 <?php
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -113,7 +114,7 @@
 
             <div class="section-title">
                 <h2 data-aos="fade-in">Pricing</h2>
-                <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p data-aos="fade-in">Vibe jij niet zo met onze prijzen? Laat het ons dan gerust weten!</p>
             </div>
 
             <div class="row no-gutters">
@@ -158,7 +159,7 @@
             </div>
 
         </div>
-    </section><!-- End Pricing Section -->
+    </section>
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -431,42 +432,7 @@
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
-
-    <div class="footer-top">
-
-        <div class="container">
-
-            <div class="row  justify-content-center">
-                <div class="col-lg-6">
-                    <h3>YourWorld</h3>
-                    <p>Abonneer je op onze nieuwsbrief om op te hoogte te blijven van alle veranderingen omtrent ons programma.</p>
-                </div>
-            </div>
-
-            <div class="row footer-newsletter justify-content-center">
-                <div class="col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" name="email" placeholder="Typ hier je Email"><input type="submit" value="Abonneer">
-                    </form>
-                </div>
-            </div>
-
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container footer-bottom clearfix">
-        <div class="copyright">
-            &copy; Copyright <strong><span>YourWorld</span></strong>. All Rights Reserved
-        </div>
-    </div>
+    <?php include_once 'inc/footer.php'?>
 </footer>
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
