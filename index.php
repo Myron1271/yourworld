@@ -43,8 +43,10 @@
         <div class="row d-flex align-items-center">
             <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
                 <h1>YourWorld, your life.</h1>
-                <h2 style="margin-left: 6px">Wij zijn een gepassioneerd team van HBO-ICT studenten met als missie om de wereld op een positieve manier te veranderen.</h2>
-                <a href="#about" class="btn-get-started scrollto">Begin eens!</a>
+                <h2 style="margin-left: 6px">Wij vinden het belangrijk om op jonge leeftijd al bewustzijn te creeëren.
+                    We willen kinderen en jongeren stimuleren om verstandig met hun geld om te gaan,
+                    en tegelijkertijd iets goeds te doen voor het klimaat.</h2>
+                <a href="#about" class="btn-get-started scrollto">Aan de slag!</a>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
                 <img id="mainlogo" src="assets/img/hero-img.png" class="img-fluid" alt="">
@@ -205,6 +207,18 @@
                 </div>
             </div><!-- End F.A.Q Item-->
 
+            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-5">
+                    <i class="bx bx-help-circle"></i>
+                    <h4>Kan ik mijn aankoop refunden?</h4>
+                </div>
+                <div class="col-lg-7">
+                    <p>
+                        Nee, dat kan helaas niet. Doordat je alle accounts al in je email hebt ontvangen is het niet mogelijk om te refunden.
+                    </p>
+                </div>
+            </div><!-- End F.A.Q Item-->
+
         </div>
     </section><!-- End Frequently Asked Questions Section -->
 
@@ -217,9 +231,7 @@
                     <div class="content d-flex flex-column justify-content-center">
                         <h3 data-aos="fade-in" data-aos-delay="100">Over ons</h3>
                         <p data-aos="fade-in">
-                            Wij vinden het belangrijk om op jonge leeftijd al bewustzijn te creeëren.
-                            We willen kinderen en jongeren stimuleren om verstandig met hun geld om te gaan,
-                            en tegelijkertijd iets goeds te doen voor het klimaat.
+                            Wij zijn een gepassioneerd team van HBO-ICT studenten met als missie om de wereld op een positieve manier te veranderen.
                         </p>
                         <div class="row">
                             <div class="col-md-6 icon-box" data-aos="fade-up">

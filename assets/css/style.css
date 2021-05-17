@@ -562,7 +562,7 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #fdc134;
+  color: #3cc187;
 }
 
 .about .content .icon-box p {
@@ -1075,7 +1075,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #9bbbd7;
+  color: #3cc187;
   font-size: 20px;
   float: left;
   line-height: 0;
@@ -1108,7 +1108,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #fdc134;
+  color: #3cc187;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #fff7e5;
