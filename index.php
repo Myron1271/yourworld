@@ -1,5 +1,4 @@
 <?php
-
 ?>
 
 <!DOCTYPE html>
@@ -40,20 +39,18 @@
 
 <!-- ======= Hero Section ======= -->
 <section id="hero">
-
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
                 <h1>YourWorld, your life.</h1>
                 <h2 style="margin-left: 6px">Wij zijn een gepassioneerd team van HBO-ICT studenten met als missie om de wereld op een positieve manier te veranderen.</h2>
-                <a href="#about" class="btn-get-started scrollto">Maak een account aan</a>
+                <a href="#about" class="btn-get-started scrollto">Begin eens!</a>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
                 <img id="mainlogo" src="assets/img/hero-img.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
-
 </section>
 
 <main id="main">
@@ -108,10 +105,112 @@
         </div>
     </section>
 
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2 data-aos="fade-in">Pricing</h2>
+                <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <div class="row no-gutters">
+
+                <div class="col-lg-4 box" data-aos="zoom-in">
+                    <h3>Student</h3>
+                    <h4>€0<span>per maand</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Een account voor één persoon</li>
+                        <li><i class="bx bx-check"></i> Zelfstandig leren om verantwoordelijk met je geld om te gaan </li>
+                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal één apparaat</li>
+                        <br><br><br>
+                    </ul>
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+
+                <div class="col-lg-4 box featured" data-aos="zoom-in">
+                    <span class="featured-badge">Featured</span>
+                    <h3>Standaard onderwijspakket</h3>
+                    <h4>€15<span>per maand</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Studentenaccounts voor een hele klas tot en met 35 personen</li>
+                        <li><i class="bx bx-check"></i> In groepsverband leren om verantwoordelijk met je geld om te gaan</li>
+                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende apparaten</li>
+                        <li><i class="bx bx-check"></i> Een docentenaccount als klassebeheerder</li>
+                    </ul>
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+
+                <div class="col-lg-4 box" data-aos="zoom-in">
+                    <h3>Voortgezet onderwijspakket</h3>
+                    <h4>€30<span>per maand</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Studentenaccounts voor meerdere klassen tot en met 175 personen </li>
+                        <li><i class="bx bx-check"></i> In groepsverband leren om verantwoordelijk met je geld om te gaan</li>
+                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende apparaten </li>
+                        <li><i class="bx bx-check"></i> 5 docenten accounts als klassenbeheerder</li>
+                    </ul>
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2 data-aos="fade-in">Veelgestelde vragen</h2>
+            </div>
+
+            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up">
+                <div class="col-lg-5">
+                    <i class="bx bx-help-circle"></i>
+                    <h4>Kan ik ook spelen zonder account?</h4>
+                </div>
+                <div class="col-lg-7">
+                    <p>
+                        Nee. Een account wordt gebruikt om jouw data te versturen tussen verschillende apparaten.
+                    </p>
+                </div>
+            </div><!-- End F.A.Q Item-->
+
+            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-5">
+                    <i class="bx bx-help-circle"></i>
+                    <h4>Hoe wordt mijn bestelling geleverd?</h4>
+                </div>
+                <div class="col-lg-7">
+                    <p>
+                        Nadat je een studentenaccount hebt aangemaakt kun je inloggen in de game. Wanneer je een docentenaccount hebt aangemaakt, zullen er activatiecodes voor het aantal bestelde accounts naar je gemaild worden.
+                    </p>
+                </div>
+            </div><!-- End F.A.Q Item-->
+
+            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-5">
+                    <i class="bx bx-help-circle"></i>
+                    <h4>Hoeveel mensen kan ik toevoegen aan mijn klas?</h4>
+                </div>
+                <div class="col-lg-7">
+                    <p>
+                        Bij aankoop van een standaard onderwijspakket krijg je 35 verschillende studentenaccounts. In dit geval kun je dus maximaal 35 verschillende studenten toevoegen aan je klas.
+                    </p>
+                    <p>
+                        Bij aankoop van een voortgezet onderwijspakket krijg je 175 verschillende studentenaccounts.In dit geval kun je dus maximaal 125 verschillende studenten toevoegen aan 5 verschillende klassen.
+                    </p>
+                </div>
+            </div><!-- End F.A.Q Item-->
+
+        </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
         <div class="container">
-
             <div class="row">
                 <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
                 <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
@@ -147,7 +246,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -249,109 +347,6 @@
 
         </div>
     </section>
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
-        <div class="container">
-
-            <div class="section-title">
-                <h2 data-aos="fade-in">Pricing</h2>
-                <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div class="row no-gutters">
-
-                <div class="col-lg-4 box" data-aos="zoom-in">
-                    <h3>Student</h3>
-                    <h4>€0<span>per maand</span></h4>
-                    <ul>
-                        <li><i class="bx bx-check"></i> Een account voor één persoon</li>
-                        <li><i class="bx bx-check"></i> Zelfstandig leren om verantwoordelijk met je geld om te gaan </li>
-                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal één apparaat</li>
-                        <br><br><br>
-                    </ul>
-                    <a href="#" class="get-started-btn">Get Started</a>
-                </div>
-
-                <div class="col-lg-4 box featured" data-aos="zoom-in">
-                    <span class="featured-badge">Featured</span>
-                    <h3>Standaard onderwijspakket</h3>
-                    <h4>€15<span>per maand</span></h4>
-                    <ul>
-                        <li><i class="bx bx-check"></i> Studentenaccounts voor een hele klas tot en met 35 personen</li>
-                        <li><i class="bx bx-check"></i> In groepsverband leren om verantwoordelijk met je geld om te gaan</li>
-                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende apparaten</li>
-                        <li><i class="bx bx-check"></i> Een docentenaccount als klassebeheerder</li>
-                    </ul>
-                    <a href="#" class="get-started-btn">Get Started</a>
-                </div>
-
-                <div class="col-lg-4 box" data-aos="zoom-in">
-                    <h3>Voortgezet onderwijspakket</h3>
-                    <h4>€30<span>per maand</span></h4>
-                    <ul>
-                        <li><i class="bx bx-check"></i> Studentenaccounts voor meerdere klassen tot en met 175 personen </li>
-                        <li><i class="bx bx-check"></i> In groepsverband leren om verantwoordelijk met je geld om te gaan</li>
-                        <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende apparaten </li>
-                        <li><i class="bx bx-check"></i> 5 docenten accounts als klassenbeheerder</li>
-                    </ul>
-                    <a href="#" class="get-started-btn">Get Started</a>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Pricing Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-        <div class="container">
-
-            <div class="section-title">
-                <h2 data-aos="fade-in">Veelgestelde vragen</h2>
-            </div>
-
-            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up">
-                <div class="col-lg-5">
-                    <i class="bx bx-help-circle"></i>
-                    <h4>Kan ik ook spelen zonder account?</h4>
-                </div>
-                <div class="col-lg-7">
-                    <p>
-                         Nee. Een account wordt gebruikt om jouw data te versturen tussen verschillende apparaten.
-                    </p>
-                </div>
-            </div><!-- End F.A.Q Item-->
-
-            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-5">
-                    <i class="bx bx-help-circle"></i>
-                    <h4>Hoe wordt mijn bestelling geleverd?</h4>
-                </div>
-                <div class="col-lg-7">
-                    <p>
-                        Nadat je een studentenaccount hebt aangemaakt kun je inloggen in de game. Wanneer je een docentenaccount hebt aangemaakt, zullen er activatiecodes voor het aantal bestelde accounts naar je gemaild worden.
-                    </p>
-                </div>
-            </div><!-- End F.A.Q Item-->
-
-            <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-5">
-                    <i class="bx bx-help-circle"></i>
-                    <h4>Hoeveel mensen kan ik toevoegen aan mijn klas?</h4>
-                </div>
-                <div class="col-lg-7">
-                    <p>
-                        Bij aankoop van een standaard onderwijspakket krijg je 35 verschillende studentenaccounts. In dit geval kun je dus maximaal 35 verschillende studenten toevoegen aan je klas.
-                    </p>
-                    <p>
-                        Bij aankoop van een voortgezet onderwijspakket krijg je 175 verschillende studentenaccounts.In dit geval kun je dus maximaal 125 verschillende studenten toevoegen aan 5 verschillende klassen.
-                    </p>
-                </div>
-            </div><!-- End F.A.Q Item-->
-
-        </div>
-    </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
