@@ -1,6 +1,9 @@
 <?php
 ?>
 
+<!-- Animate.Style -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 <!-- Template Main CSS File -->
 <link href="/assets/css/style.css" rel="stylesheet">
 
@@ -19,7 +22,7 @@
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 <li class="nav-item dropdown">
                     <a class="account nav-link dropdown-toggle" href="#" id="Account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-                    <div style="text-align: center;" id="DropdownMenuShow" class="dropdown-menu" aria-labelledby="AccountIcon">
+                    <div style="text-align: center;" id="DropdownMenuShow" class="dropdown-menu animate__animated animate__flipInX" aria-labelledby="AccountIcon">
                         <a class="dropdown-item" id="NavBarTextDropDown" href="./login.php">Inloggen</a>
                         <a class="dropdown-item" id="NavBarTextDropDown" href="./register.php">Registeren</a>
                         <hr class="FooterLine " style="margin: 0 0%; height: 2px">
