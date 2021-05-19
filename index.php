@@ -117,7 +117,7 @@
 
             <div class="section-title">
                 <h2 data-aos="fade-in">Pricing</h2>
-                <p data-aos="fade-in">Vibe jij niet zo met onze prijzen? Laat het ons dan gerust weten!</p>
+                <p data-aos="fade-in">Ben je het niet zo eens met onze prijzen? Laat het ons dan gerust weten!</p>
             </div>
 
             <div class="row no-gutters">
@@ -389,7 +389,7 @@
                             <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-envelope"></i>
                                 <h3>Email Us</h3>
-                                <p>info@yourworld.nl</p>
+                                <p>yourworld-fontys@outlook.com</p>
                             </div>
                         </div>
                         <div class="col-md-6">
