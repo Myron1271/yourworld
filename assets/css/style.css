@@ -402,6 +402,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 80%;
     margin: 0px;
+    margin-top: -50px;
   }
 }
 
@@ -528,7 +529,17 @@ section {
 
 /* About */
 .about .content {
+  margin-left: 95px;
   padding: 30px 0;
+}
+
+@media (max-width: 568px)
+{
+  .about .content
+  {
+    text-align: center;
+    margin-left: 0px;
+  }
 }
 
 .about .content h3 {
