@@ -21,5 +21,5 @@
         }
         else echo "Het ingevoerde wachtwoord klopt niet!";
     }
-    else echo "Gebruiker bestaat niet";
+    else echo $S_SESSION["NoUser"] = "Gebruiker bestaat niet";
 ?>

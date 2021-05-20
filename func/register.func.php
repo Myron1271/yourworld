@@ -2,7 +2,6 @@
 
     include_once 'database.func.php';
 
-
     session_start();
     if ($_SERVER['REQUEST_METHOD']== 'POST')
     {
@@ -19,6 +18,10 @@
             {
                 $_SESSION['user'] = $Username;
                 header("location: account.php");
+            }
+            else
+            {
+                $_SESSION['message'] = "Gebruiker is niet aangemaakt";
             }
         }
         else
