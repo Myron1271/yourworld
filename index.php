@@ -131,7 +131,7 @@
                         <li><i class="bx bx-check"></i> Te gebruiken op maximaal één apparaat</li>
                         <br><br><br>
                     </ul>
-                    <a href="#" class="get-started-btn">Aan de slag</a>
+                    <a href="register.php" class="get-started-btn">Aan de slag</a>
                 </div>
 
                 <div class="col-lg-4 box featured" data-aos="zoom-in">
@@ -144,7 +144,7 @@
                         <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende apparaten</li>
                         <li><i class="bx bx-check"></i> Een docentenaccount als klassebeheerder</li>
                     </ul>
-                    <a href="#" class="get-started-btn">Aan de slag</a>
+                    <a href="register.php" class="get-started-btn">Aan de slag</a>
                 </div>
 
                 <div class="col-lg-4 box" data-aos="zoom-in">
@@ -156,7 +156,7 @@
                         <li><i class="bx bx-check"></i> Te gebruiken op maximaal 5 verschillende apparaten </li>
                         <li><i class="bx bx-check"></i> 5 docenten accounts als klassenbeheerder</li>
                     </ul>
-                    <a href="#" class="get-started-btn">Aan de slag</a>
+                    <a href="register.php" class="get-started-btn">Aan de slag</a>
                 </div>
 
             </div>
