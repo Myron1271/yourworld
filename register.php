@@ -1,11 +1,18 @@
 <?php
 
+error_reporting(0);
 include_once 'func/register.func.php';
 
 if (isset($_SESSION['user']))
 {
     header("location: account.php");
 }
+else
+{
+    session_destroy();
+}
+
+
 ?>
 
 <!doctype html>
@@ -35,6 +42,7 @@ if (isset($_SESSION['user']))
     <link href="assets/css/style.css" rel="stylesheet">
 
     <title>Registreren</title>
+
 </head>
 <body>
 
@@ -48,6 +56,10 @@ if (isset($_SESSION['user']))
         <p class="FormText mb-4">Registeren</p>
         <br>
         <div class="row">
+
+            <div id="ErrorMessage" class="col-md-8 offset-md-2">
+                <?= $_SESSION['message']?>
+            </div>
             <div class="col-md-8 offset-md-2">
                 <input type="text" name="Username_Register" class="form-control" placeholder="Gebruikersnaam" required>
             </div>
@@ -67,7 +79,6 @@ if (isset($_SESSION['user']))
         <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-8" type="submit" name="Submit_Registeren">Registreren</button>
     </form>
 </main>
-
 
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

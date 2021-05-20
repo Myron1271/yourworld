@@ -21,12 +21,12 @@
             }
             else
             {
-                $_SESSION['message'] = "Gebruiker is niet aangemaakt";
+                $_SESSION['message'] = "Er is iets fout gegaan, neem contact op met de admin";
             }
         }
         else
         {
-            $_SESSION['message'] = "Je wachtwoord is niet gelijk!";
+            $_SESSION['message'] = "Het ingevoerde wachtwoord komt niet overeen!";
         }
     }
 ?>
