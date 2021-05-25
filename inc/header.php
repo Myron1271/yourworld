@@ -25,13 +25,18 @@
                     <div style="text-align: center;" id="DropdownMenuShow" class="dropdown-menu animate__animated animate__flipInX" aria-labelledby="AccountIcon">
                         <a class="dropdown-item" id="NavBarTextDropDown" href="./login.php">Inloggen</a>
                         <a class="dropdown-item" id="NavBarTextDropDown" href="./register.php">Registeren</a>
-                        <hr class="FooterLine " style="margin: 0 0%; height: 2px">
+
+                        <?php if(isset($_SESSION['user'])): ?>
+                            <hr class="FooterLine " style="margin: 0 0%; height: 2px">
                         <a class="dropdown-item" id="NavBarTextDropDown" href="func/logout.func.php">Uitloggen</a>
+                        <?php endif; ?>
                     </div>
                 </li>
+                <?php if(isset($_SESSION['user'])): ?>
                 <li class="nav-item">
                     <a class="nav-link" id="AccountName" href="./account.php"></a>
                 </li>
+                <?php endif; ?>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>

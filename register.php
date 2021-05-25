@@ -57,9 +57,12 @@ else
         <br>
         <div class="row">
 
-            <div id="ErrorMessage" class="col-md-8 offset-md-2">
-                <?= $_SESSION['message']?>
-            </div>
+                <?php foreach($_SESSION['messages'] as $message): ?>
+                    <div class="alert alert-danger col-md-8 offset-md-2">
+                        <?= $message ?>
+                    </div>
+                <?php endforeach; ?>
+
             <div class="col-md-8 offset-md-2">
                 <input type="text" name="Username_Register" class="form-control" placeholder="Gebruikersnaam" required>
             </div>
