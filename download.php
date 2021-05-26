@@ -1,10 +1,5 @@
 <?php
-
-session_start();
-if (isset($_SESSION['user']))
-{
-    header("location: account.php");
-}
+session_start()
 ?>
 
 <!doctype html>
@@ -14,10 +9,17 @@ if (isset($_SESSION['user']))
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YourWorld</title>
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/icon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Animate.Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -32,34 +34,23 @@ if (isset($_SESSION['user']))
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <title>Login</title>
 </head>
+
 <body>
 
 <header id="header">
     <?php include_once 'inc/header.php'?>
 </header>
+<section id="download" class="col-md-6 offset-md-3">
+    <p> Klik op de downloadknop om YourWorld te downloaden!</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button id="downloadknop" type="button" class="btn btn-primary">Download</button></a>
+</section>
 
-<main>
-    <br>
-    <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #e0e0e05c;" action="func/login.func.php" method="post">
-        <p class="FormText mb-4">Inloggen</p>
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <input type="text" name="Username_Login" class="form-control" placeholder="Gebruikersnaam" required>
-            </div>
-            <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" name="Password_Login" class="form-control" placeholder="Wachtwoord" required>
-            </div>
-            <div  class="col-md-8 offset-md-2" style="margin-top: 15px;">
-                <a style="color: #37517e" id="RegisterText" type="text" href="register.php">Nog geen account? Klik dan hier!</a>
-            </div>
-        </div>
-        <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-8" type="Submit" name="Submit_Inloggen">Inloggen</button>
-    </form>
-</main>
+<section id="gallerij" class="col-md-6 offset-md-3">
+
+</section>
+
+</body>
 
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -74,5 +65,4 @@ if (isset($_SESSION['user']))
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
 
-</body>
 </html>

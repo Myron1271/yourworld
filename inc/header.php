@@ -16,10 +16,10 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="index.php#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">Over Ons</a></li>
-                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+                <li><a class="nav-link scrollto" href="index.php#about">Over Ons</a></li>
+                <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+                <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
                 <li class="nav-item dropdown">
                     <a class="account nav-link dropdown-toggle" href="#" id="Account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
                     <div style="text-align: center;" id="DropdownMenuShow" class="dropdown-menu animate__animated animate__flipInX" aria-labelledby="AccountIcon">

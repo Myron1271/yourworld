@@ -67,7 +67,7 @@ else
                 <input type="text" name="Username_Register" class="form-control" placeholder="Gebruikersnaam" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="text" name="School_Naam" class="form-control mb-4" placeholder="School Naam" required>
+                <input type="text" name="School_Naam" class="form-control mb-4" placeholder="Schoolnaam" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
                 <input type="email" name="Email_Register" class="form-control mb-4" placeholder="Email" required>
@@ -76,7 +76,7 @@ else
                 <input type="password" name="Password_Register" class="form-control" placeholder="Wachtwoord" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" name="Password_Register2" class="form-control" placeholder="Wachtwoord Herhalen" required>
+                <input type="password" name="Password_Register2" class="form-control" placeholder="Wachtwoord herhalen" required>
             </div>
         </div>
         <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-8" type="submit" name="Submit_Registeren">Registreren</button>

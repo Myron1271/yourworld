@@ -45,7 +45,7 @@
             }
             else
             {
-                $_SESSION['message'][] = "Er is iets fout gegaan, neem contact op met de admin";
+                $_SESSION['message'][] = "Er is iets foutgegaan, neem contact op met de admin";
             }
         }
 
