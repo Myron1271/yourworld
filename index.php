@@ -305,7 +305,7 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
-                        <div class="pic"><img src="assets/img/team/team-3.jpg" alt=""></div>
+                        <div class="pic"><img src="assets/img/team/casfoto.png" alt=""></div>
                         <h4>Cas Esselink</h4>
                         <span>Software Developer</span>
                         <div class="social">
@@ -319,7 +319,7 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
-                        <div class="pic"><img src="assets/img/team/team-4.jpg" alt=""></div>
+                        <div class="pic"><img src="assets/img/team/fototoby.png" alt=""></div>
                         <h4>Toby Melskens</h4>
                         <span>Software Developer</span>
                         <div class="social">
