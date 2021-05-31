@@ -1,7 +1,8 @@
 <?php
 
-error_reporting(0);
 include_once 'func/register.func.php';
+error_reporting(0);
+session_start();
 
 if (isset($_SESSION['user']))
 {
@@ -44,7 +45,7 @@ else
     <title>Registreren</title>
 
 </head>
-<body>
+<body style="background-color: #213b52">
 
 <header id="header">
     <?php include_once 'inc/header.php'?>

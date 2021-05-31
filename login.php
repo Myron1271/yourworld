@@ -35,7 +35,7 @@ if (isset($_SESSION['user']))
 
     <title>Login</title>
 </head>
-<body>
+<body style="background-color: #213b52">
 
 <header id="header">
     <?php include_once 'inc/header.php'?>
@@ -54,10 +54,10 @@ if (isset($_SESSION['user']))
                 <input type="password" name="Password_Login" class="form-control" placeholder="Wachtwoord" required>
             </div>
             <div  class="col-md-8 offset-md-2" style="margin-top: 15px;">
-                <a style="color: #37517e" id="RegisterText" type="text" href="register.php">Nog geen account? Klik dan hier!</a>
+                <a style="color: #FFFF" id="RegisterText" type="text" href="register.php">Nog geen account? Klik dan hier!</a>
             </div>
         </div>
-        <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-8" type="Submit" name="Submit_Inloggen">Inloggen</button>
+        <button style="background-color: #3cc187; border-color: #3cc187; color: #FFFF" class="btn btn-info my-4 btn-block col-md-8" type="Submit" name="Submit_Inloggen">Inloggen</button>
     </form>
 </main>
 
