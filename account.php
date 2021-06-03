@@ -48,11 +48,51 @@
 </header>
 
 <main>
-    <div class="col-md-6">
-    <h1>Welkom Terug!</h1>
-    <span class="user"><?= $_SESSION['user']?></span>
-    <br>
-    <span>Dit zijn je huidige statistieken</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Welkom Terug!</h1>
+                <span class="user"><?= $_SESSION['user']?></span>
+                <section id="skills" class="skills">
+                    <div class="container" data-aos="fade-up">
+                        <img src="assets/img/skills.png" class="img-fluid" alt="">
+                            <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                                <h3>Dit zijn je huidige statistieken</h3>
+
+                                <div class="skills-content">
+
+                                    <div class="progress">
+                                        <span class="skill">Gezonheid <i class="val">100%</i></span>
+                                        <div class="progress-bar-wrap">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <span class="skill">Energie + <i class="val">80%</i></span>
+                                        <div class="progress-bar-wrap">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <span class="skill">Honger + <i class="val">75%</i></span>
+                                        <div class="progress-bar-wrap">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <span class="skill">Werkwijze Docent + <i class="val">55%</i></span>
+                                        <div class="progress-bar-wrap">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </section><!-- End Skills Section -->
+            </div>
+        </div>
     </div>
 </main>
 

@@ -60,7 +60,6 @@
 </section>
 
 <main id="main">
-
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
         <div class="container">

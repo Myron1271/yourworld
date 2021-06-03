@@ -48,6 +48,5 @@
                 $_SESSION['message'][] = "Er is iets foutgegaan, neem contact op met de admin";
             }
         }
-
     }
 ?>
