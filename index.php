@@ -276,7 +276,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="member" data-aos="fade-up">
-                        <div class="pic"><img src="assets/img/team/fotomyron.png" alt=""></div>
+                        <div class="pic"><img style="max-width: 89%" src="assets/img/team/fotomyron.png" alt=""></div>
                         <h4>Myron Seelen</h4>
                         <span>Media Designer</span>
                         <div class="social">
