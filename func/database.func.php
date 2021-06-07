@@ -5,14 +5,21 @@ $username = "root";
 $password = "";
 $dbname = "yourworld";
 
-/*
-$servername = "145.220.75.78";
-$username = "applicatie";
+
+/*$servername = "localhost";
+$username = "proftaak";
 $password = "Crufkrerbol2";
-$dbname = "yourworld";
+$dbname = "yourworld";*/
+
+
+/*ssh2_connect($servername);*/
+$conn = new mysqli($servername, $username, $password, $dbname);
+/*
+$connection = ssh2_connect($servername, 22);
+ssh2_auth_password($connection, $username, $password);
+$stream=ssh2_exec($connection, 'usr/local/bin/php -i');
 */
 
-$conn = new mysqli($servername, $username, $password, $dbname);
 
 if(!$conn)
 {
