@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include_once 'func/database.func.php';
     if (!isset($_SESSION['user']))
     {
         header("location: login.php");
@@ -88,13 +89,36 @@
                                             <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
-                                </div>
+                            </div>
                     </div>
-                </section><!-- End Skills Section -->
+                </section>
             </div>
         </div>
     </div>
 </main>
+
+<div style="margin-left: 100px" class="datapost">
+    <?php
+
+    $nummer = rand(0, 99);
+
+    $sql = "SELECT id, username, email, gender FROM mockupdata /* WHERE id='$nummer'*/ ";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0)
+    {
+        // output data of each row
+        while ($row = $result->fetch_assoc())
+        {
+            echo "<br> id: " . $row["id"] . " - Name: " . $row["username"] . " " . $row["email"] . "<br>";
+        }
+    }
+    else
+    {
+        echo "Geen resultaten";
+    }
+    ?>
+</div>
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>
