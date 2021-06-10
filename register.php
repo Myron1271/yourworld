@@ -53,7 +53,7 @@ else
 
 <main>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #e0e0e05c" action="register.php" method="post" enctype="multipart/form-data">
+    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f" action="register.php" method="post" enctype="multipart/form-data">
         <p class="FormText mb-4">Registeren</p>
         <br>
         <div class="row">
