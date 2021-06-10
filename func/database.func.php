@@ -6,8 +6,8 @@ $password = "";
 $dbname = "yourworld";
 
 /*
-$servername = "localhost";
-$username = "proftaak";
+$servername = "145.220.75.78";
+$username = "applicatie";
 $password = "Crufkrerbol2";
 $dbname = "yourworld";
 */
