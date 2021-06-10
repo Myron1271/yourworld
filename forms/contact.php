@@ -9,11 +9,10 @@ if (isset($_POST['submit'])) {
   $headers = "From: " . $mailFrom;
   $txt = "Je hebt een email ontvangen van " . $name . ".\n\n" . $message;
 
-    if (mail($mailTo, $subject, $txt, $headers)) {
-      die ('Your message has been sent.');
-    } else {
-      die ('A problem has occured.');
-    }
+  if (mail($mailTo, $subject, $txt, $headers)) {
+    die ('Your message has been sent.');
+  } else {
+    die ('A problem has occured.');
+  }
 }
 ?>
-
