@@ -1,4 +1,5 @@
 <?php
+
     session_start();
     include_once 'func/database.func.php';
     if (!isset($_SESSION['user']))
@@ -6,7 +7,12 @@
         header("location: login.php");
     }
 
-    $waarde = 55;
+    $waarde = rand(0,100);
+    $waarde2 = rand(0,100);
+    $waarde3 = rand(0,100);
+    $waarde4 = rand(0,100);
+    $waarde5 = rand(0,100);
+
 ?>
 
 <!doctype html>
@@ -55,48 +61,50 @@
     <div class="container">
         <div class="row">
             <div style="text-align: center" class="col-xs-12">
-                <h1>Hey Daar Welkom Terug!</h1>
-                <h2 class="user"><?= $_SESSION['user']?></h2>
+                <h1 style="margin-top: 10px;">Welkom Terug!</h1>
+                <h2 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['user']?></h2>
             </div>
-            <div class="col-md-5">
-                <section id="skills" class="skills">
+            <div class="col-md-3"><section id="skills" class="skills">
                     <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
                         <h3>Dit zijn je huidige statistieken</h3>
                         <div class="skills-content">
                             <div class="progress">
-                                <span class="skill">Gezonheid <i class="val">100%</i></span>
+                                <span class="skill">Gezonheid <i class="val"><?php echo $waarde2?>%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div style="width: <?php echo $waarde2?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="progress">
-                                <span class="skill">Energie <i class="val">80%</i></span>
+                                <span class="skill">Energie <i class="val"><?php echo $waarde3?>%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div style="width: <?php echo $waarde3?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="progress">
-                                <span class="skill">Honger <i class="val">75%</i></span>
+                                <span class="skill">Honger <i class="val"><?php echo $waarde4?>%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div style="width: <?php echo $waarde4?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="progress">
-                                <span class="skill">Blijdschap  <i class="val">55%</i></span>
+                                <span class="skill">Blijdschap  <i class="val"><?php echo $waarde?>%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div style="width: 55%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div style="width: <?php echo $waarde?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
-                    </div>
+                        </div>
                 </section>
             </div>
+            <div class="col-md-3 offset-6">
+                <img src="assets/img/team/player.png">
+            </div>
         </div>
+    </div>
 </main>
 
 <div style="margin-left: 100px" class="datapost">
-    <?php
 
-    $nummer = rand(0, 99);
+<!--    $nummer = rand(0, 99);
 
     $sql = "SELECT id, username, email, gender FROM mockupdata /* WHERE id='$nummer'*/ ";
     $result = $conn->query($sql);
@@ -112,8 +120,7 @@
     else
     {
         echo "Geen resultaten";
-    }
-    ?>
+    }-->
 </div>
 
 <!-- Vendor JS Files -->
