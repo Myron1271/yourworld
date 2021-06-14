@@ -41,7 +41,7 @@
             if ($conn ->query($sql) === true)
             {
                 $_SESSION['user'] = $Username;
-                header("location: account.php");
+                header("location: teacher.php");
             }
             else
             {

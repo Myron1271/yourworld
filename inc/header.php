@@ -28,7 +28,7 @@
                             <a class="dropdown-item" id="NavBarTextDropDown" href="./register.php">Registeren</a>
                         <?php endif; ?>
                         <?php if(isset($_SESSION['user'])): ?>
-                            <a class="dropdown-item" id="NavBarTextDropDown" href="./account.php">Account</a>
+                            <a class="dropdown-item" id="NavBarTextDropDown" href="./teacher.php">Account</a>
                             <hr class="FooterLine " style="margin: 0 0%; height: 1px">
                             <a class="dropdown-item" id="NavBarTextDropDown" href="func/logout.func.php">Uitloggen</a>
                         <?php endif; ?>

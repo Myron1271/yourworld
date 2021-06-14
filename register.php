@@ -6,7 +6,7 @@ session_start();
 
 if (isset($_SESSION['user']))
 {
-    header("location: account.php");
+    header("location: teacher.php");
 }
 else
 {
