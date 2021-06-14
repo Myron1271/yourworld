@@ -1,9 +1,9 @@
 <?php
 
 session_start();
-if (isset($_SESSION['user']))
+if (isset($_SESSION['userStudent']))
 {
-    header("location: teacher.php");
+    header("location: student.php");
 }
 ?>
 
@@ -44,8 +44,8 @@ if (isset($_SESSION['user']))
 <main>
     <br>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f;" action="func/login.func.php" method="post">
-        <p class="FormText mb-4">Inloggen</p>
+    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f;" action="func/login.student.func.php" method="post">
+        <p class="FormText mb-4">Student Inloggen</p>
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <input type="text" name="Username_Login" class="form-control" placeholder="Gebruikersnaam" required>

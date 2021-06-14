@@ -1,19 +1,10 @@
 <?php
 
-include_once 'func/register.func.php';
-error_reporting(0);
 session_start();
-
 if (isset($_SESSION['userAdmin']))
 {
     header("location: teacher.php");
 }
-else
-{
-    session_destroy();
-}
-
-
 ?>
 
 <!doctype html>
@@ -42,8 +33,7 @@ else
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <title>Registreren</title>
-
+    <title>Login</title>
 </head>
 <body style="background-color: #213b52">
 
@@ -53,34 +43,21 @@ else
 
 <main>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f" action="register.php" method="post" enctype="multipart/form-data">
-        <p class="FormText mb-4">Registeren</p>
-        <br>
+    <br>
+    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f;" action="func/login.func.php" method="post">
+        <p class="FormText mb-4">Teacher Inloggen</p>
         <div class="row">
-
-                <?php foreach($_SESSION['messages'] as $message): ?>
-                    <div class="alert alert-danger col-md-8 offset-md-2">
-                        <?= $message ?>
-                    </div>
-                <?php endforeach; ?>
-
             <div class="col-md-8 offset-md-2">
-                <input type="text" name="Username_Register" class="form-control" placeholder="Gebruikersnaam" required>
+                <input type="text" name="Username_Login" class="form-control" placeholder="Gebruikersnaam" required>
             </div>
             <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="text" name="School_Naam" class="form-control mb-4" placeholder="Schoolnaam" required>
+                <input type="password" name="Password_Login" class="form-control" placeholder="Wachtwoord" required>
             </div>
-            <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="email" name="Email_Register" class="form-control mb-4" placeholder="Email" required>
-            </div>
-            <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" name="Password_Register" class="form-control" placeholder="Wachtwoord" required>
-            </div>
-            <div class="col-md-8 offset-md-2" style="margin-top: 10px">
-                <input type="password" name="Password_Register2" class="form-control" placeholder="Wachtwoord herhalen" required>
+            <div  class="col-md-8 offset-md-2" style="margin-top: 15px;">
+                <a style="color: #FFFF" id="RegisterText" type="text" href="register.php">Nog geen account? Klik dan hier!</a>
             </div>
         </div>
-        <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-8" type="submit" name="Submit_Registeren">Registreren</button>
+        <button style="background-color: #3cc187; border-color: #3cc187; color: #FFFF" class="btn btn-info my-4 btn-block col-md-8" type="Submit" name="Submit_Inloggen">Inloggen</button>
     </form>
 </main>
 

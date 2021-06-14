@@ -2,26 +2,13 @@
 
     session_start();
     include_once 'func/database.func.php';
-    if (!isset($_SESSION['user']))
+    if (!isset($_SESSION['userAdmin']))
     {
-        header("location: login.php");
+        header("location: teacherlogin.php");
     }
-
-    $hygiene = rand(0,100);
-    $energie = rand(0,100);
-    $honger = rand(0,30);
-    $fun = rand(0,100);
-
-
-    if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
+    if (isset($_SESSION['userStudent']))
     {
-        $statusHonger = "Je <b>honger</b> is laag, je voelt je <b>hongerig</b>";
-
-        $statusFun = "Je <b>blijdschap</b> is laag, je voelt je <b>niet blij</b>";
-
-        $statusEnergie = "Je <b>Energie</b> is laag, je voelt je <b>Moe</b>";
-
-        $statusHygiene = "Je <b>Hygiëne</b> is laag, je voelt je <b>vies</b>";
+        header("location: Student.php");
     }
 
 ?>
@@ -69,74 +56,8 @@
 
 <main>
 
-    <div class="container">
-        <div class="row">
-            <div style="text-align: center" class="col-xs-12">
-                <h1 style="margin-top: 10px;">Welkom Terug!</h1>
-                <h2 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['user']?></h2>
-                <h4><?php echo $statusHonger;?></h4>
-                <h4><?php echo $statusFun;?></h4>
-                <h4><?php echo $statusEnergie;?></h4>
-                <h4><?php echo $statusHygiene;?></h4>
-            </div>
-            <div class="col-md-3"><section id="skills" class="skills">
-                    <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
-                        <h3>Dit zijn je huidige statistieken</h3>
-                        <div class="skills-content">
-                            <div class="progress">
-                                <span class="skill">Hygiëne <i class="val"><?php echo $hygiene?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $hygiene?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <span class="skill">Energie <i class="val"><?php echo $energie?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $energie?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <span class="skill">Honger <i class="val"><?php echo $honger?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $honger?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <span class="skill">Blijdschap  <i class="val"><?php echo $fun?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $fun?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-            </div>
-            <div class="col-md-3 offset-6">
-                <img src="assets/img/team/player.png">
-            </div>
-        </div>
-    </div>
+    <h1>TEACHER PAGE</h1>
 </main>
-
-<div style="margin-left: 100px" class="datapost">
-
-<!--    $nummer = rand(0, 99);
-
-    $sql = "SELECT id, username, email, gender FROM mockupdata /* WHERE id='$nummer'*/ ";
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0)
-    {
-        // output data of each row
-        while ($row = $result->fetch_assoc())
-        {
-            echo "<br> id: " . $row["id"] . " - Name: " . $row["username"] . " " . $row["email"] . "<br>";
-        }
-    }
-    else
-    {
-        echo "Geen resultaten";
-    }-->
-</div>
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>

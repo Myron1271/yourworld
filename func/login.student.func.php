@@ -6,7 +6,7 @@
     $Username_Login = $_POST['Username_Login'];
     $Password_Login = $_POST['Password_Login'];
 
-    $sqlselect = "SELECT * FROM users WHERE username = '$Username_Login'";
+    $sqlselect = "SELECT * FROM students WHERE username = '$Username_Login'";
     $result = mysqli_query($conn, $sqlselect);
     $CheckResult = mysqli_num_rows($result);
 
@@ -15,8 +15,8 @@
         $row = $result->fetch_array(MYSQLI_ASSOC);
         if (password_verify($Password_Login, $row['password']))
         {
-            $_SESSION['userAdmin'] = $Username_Login;
-            header("Location: http://localhost/yourworld/teacher.php");
+            $_SESSION['userStudent'] = $Username_Login;
+            header("Location: http://localhost/yourworld/student.php");
             exit();
         }
         else echo "Het ingevoerde wachtwoord klopt niet!";

@@ -40,7 +40,7 @@
 
             if ($conn ->query($sql) === true)
             {
-                $_SESSION['user'] = $Username;
+                $_SESSION['userAdmin'] = $Username;
                 header("location: teacher.php");
             }
             else
