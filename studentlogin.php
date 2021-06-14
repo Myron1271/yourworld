@@ -45,7 +45,7 @@ if (isset($_SESSION['userStudent']))
     <br>
     <br>
     <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f;" action="func/login.student.func.php" method="post">
-        <p class="FormText mb-4">Student Inloggen</p>
+        <p class="FormText mb-4">Inloggen Leerling</p>
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <input type="text" name="Username_Login" class="form-control" placeholder="Gebruikersnaam" required>

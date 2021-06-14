@@ -16,11 +16,8 @@ $fun = rand(0,100);
 if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
 {
     $statusHonger = "Je <b>honger</b> is laag, je voelt je <b>hongerig</b>";
-
     $statusFun = "Je <b>blijdschap</b> is laag, je voelt je <b>niet blij</b>";
-
     $statusEnergie = "Je <b>Energie</b> is laag, je voelt je <b>Moe</b>";
-
     $statusHygiene = "Je <b>Hygiëne</b> is laag, je voelt je <b>vies</b>";
 }
 
@@ -68,7 +65,6 @@ if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
 </header>
 
 <main>
-
     <div class="container">
         <div class="row">
             <div style="text-align: center" class="col-xs-12">
@@ -79,7 +75,8 @@ if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
                 <h4><?php echo $statusEnergie;?></h4>
                 <h4><?php echo $statusHygiene;?></h4>
             </div>
-            <div class="col-md-3"><section id="skills" class="skills">
+            <div class="col-md-3">
+                <section id="skills" class="skills">
                     <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
                         <h3>Dit zijn je huidige statistieken</h3>
                         <div class="skills-content">

@@ -22,7 +22,7 @@
                 <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
                 <li class="nav-item dropdown">
                     <a class="account nav-link dropdown-toggle" href="#" id="Account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-                    <div style="text-align: center; width: 125%" id="DropdownMenuShow" class="dropdown-menu animate__animated animate__flipInX" aria-labelledby="AccountIcon">
+                    <div style="text-align: center; width: 130%" id="DropdownMenuShow" class="dropdown-menu animate__animated animate__flipInX" aria-labelledby="AccountIcon">
                         <?php if(!isset($_SESSION['userAdmin']) && !isset($_SESSION['userStudent'])): ?>
                             <a class="dropdown-item" id="NavBarTextDropDown" href="./teacherlogin.php">Inloggen Docent</a>
                             <a class="dropdown-item" id="NavBarTextDropDown" href="./studentlogin.php">Inloggen Leerling</a>
