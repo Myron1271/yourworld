@@ -13,6 +13,12 @@ $energie = rand(0,100);
 $honger = rand(0, 100);
 $fun = rand(0,100);
 $social = rand(0, 100);
+$groeneEnergie = rand(0, 100);
+
+$c02 = rand(0, 100);
+$watervervuiling = rand(0, 100);
+$zwerfafval = rand(0, 100);
+$criminaliteit = rand(0, 100);
 
 if ($hygiene < 50)
 {
@@ -91,46 +97,84 @@ if ($social < 50)
                 <h4><?php echo $statusFun; ?></h4>
                 <h4><?php echo $statusSocial; ?></h4>
             </div>
-            <div class="col-md-3">
-                <section id="skills" class="skills">
-                    <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
-                        <h3>Dit zijn je huidige statistieken</h3>
-                        <div class="skills-content">
-                            <div class="progress">
-                                <span class="skill">Hygiëne <i class="val"><?php echo $hygiene?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $hygiene?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="col-md-3">
+                    <section id="skills" class="skills">
+                        <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
+                            <h3>Dit zijn je huidige statistieken</h3>
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <span class="skill">Hygiëne <i class="val"><?php echo $hygiene?>%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div style="width: <?php echo $hygiene?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <span class="skill">Energie <i class="val"><?php echo $energie?>%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div style="width: <?php echo $energie?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <span class="skill">Honger <i class="val"><?php echo $honger?>%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div style="width: <?php echo $honger?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <span class="skill">Fun  <i class="val"><?php echo $fun?>%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div style="width: <?php echo $fun?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <span class="skill">Social  <i class="val"><?php echo $social?>%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div style="width: <?php echo $social?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="progress">
-                                <span class="skill">Energie <i class="val"><?php echo $energie?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $energie?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <span class="skill">Honger <i class="val"><?php echo $honger?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $honger?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <span class="skill">Fun  <i class="val"><?php echo $fun?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $fun?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <span class="skill">Social  <i class="val"><?php echo $social?>%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div style="width: <?php echo $social?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                    </section>
+                </div>
+            <div style="margin-top: -30px;" class="col-md-3 offset-6">
+                <img src="assets/img/team/player.png">
+            </div>
+            <div class="col-xs-12" style="text-align: center">
+            <section id="skills" class="skills">
+                <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
+                    <h3 style="text-align: center">Dit zijn je statistieken van je wereld</h3>
+                    <div class="skills-content">
+                        <div class="progress">
+                            <span class="skill">C02 Uitstoot <i class="val"><?php echo $c02?>%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div style="width: <?php echo $c02?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                </section>
-            </div>
-            <div class="col-md-3 offset-6">
-                <img src="assets/img/team/player.png">
+                        <div class="progress">
+                            <span class="skill">Watervervuiling <i class="val"><?php echo $watervervuiling?>%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div style="width: <?php echo $watervervuiling?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">Zwerfafval<i class="val"><?php echo $zwerfafval?>%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div style="width: <?php echo $zwerfafval?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">Criminaliteit <i class="val"><?php echo $criminaliteit?>%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div style="width: <?php echo $criminaliteit?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">Groene Energie  <i class="val"><?php echo $groeneEnergie?>%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div style="width: <?php echo $groeneEnergie?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
             </div>
         </div>
     </div>
