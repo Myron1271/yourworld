@@ -181,7 +181,7 @@
                         Nee. Een account wordt gebruikt om jouw data te versturen tussen verschillende apparaten.
                     </p>
                 </div>
-            </div><!-- End F.A.Q Item-->
+            </div>
 
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-5">
@@ -193,7 +193,7 @@
                         Nadat je een studentenaccount hebt aangemaakt kun je inloggen in de game. Wanneer je een docentenaccount hebt aangemaakt, zullen er activatiecodes voor het aantal bestelde accounts naar je gemaild worden.
                     </p>
                 </div>
-            </div><!-- End F.A.Q Item-->
+            </div>
 
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-lg-5">
@@ -208,7 +208,7 @@
                         Bij aankoop van een voortgezet onderwijspakket krijg je 175 verschillende studentenaccounts.In dit geval kun je dus maximaal 125 verschillende studenten toevoegen aan 5 verschillende klassen.
                     </p>
                 </div>
-            </div><!-- End F.A.Q Item-->
+            </div>
 
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-lg-5">
@@ -220,10 +220,10 @@
                         Nee, dat kan helaas niet. Doordat je alle accounts al in je email hebt ontvangen is het niet mogelijk om te refunden.
                     </p>
                 </div>
-            </div><!-- End F.A.Q Item-->
+            </div>
 
         </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">

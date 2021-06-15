@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+error_reporting(0);
 include_once 'func/database.func.php';
 if (!isset($_SESSION['userStudent']))
 {
@@ -9,17 +10,31 @@ if (!isset($_SESSION['userStudent']))
 
 $hygiene = rand(0,100);
 $energie = rand(0,100);
-$honger = rand(0,30);
+$honger = rand(0, 100);
 $fun = rand(0,100);
+$social = rand(0, 100);
 
-
-if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
+if ($hygiene < 50)
 {
-    $statusHonger = "Je <b>honger</b> is laag, je voelt je <b>hongerig</b>";
-    $statusFun = "Je <b>blijdschap</b> is laag, je voelt je <b>niet blij</b>";
-    $statusEnergie = "Je <b>Energie</b> is laag, je voelt je <b>Moe</b>";
-    $statusHygiene = "Je <b>Hygiëne</b> is laag, je voelt je <b>vies</b>";
+    $statusHygiene = "Je <b>HYGIËNE</b> is erg laag, je voelt je <b>VIES</b>";
 }
+if ($energie < 50)
+{
+    $statusEnergie = "Je <b>ENERGIE</b> is erg laag, je voelt je <b>MOE</b>";
+}
+if ($honger < 50)
+{
+    $statusHonger = "Je <b>HONGER</b> is erg laag, je voelt je <b>HONGERIG</b>";
+}
+if ($fun < 50)
+{
+    $statusFun = "Je <b>FUN</b> is erg laag, je voelt je <b>VERVEELD</b>";
+}
+if ($social < 50)
+{
+    $statusSocial = "Je <b>SOCIAL</b> is erg laag, je voelt je <b>ALLEEN</b>";
+}
+
 
 ?>
 
@@ -53,7 +68,7 @@ if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Inloggen</title>
+    <title><?php echo $_SESSION['userStudent'] ?></title>
 
 </head>
 
@@ -70,10 +85,11 @@ if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
             <div style="text-align: center" class="col-xs-12">
                 <h1 style="margin-top: 10px;">Welkom Terug!</h1>
                 <h2 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['userStudent']?></h2>
-                <h4><?php echo $statusHonger;?></h4>
-                <h4><?php echo $statusFun;?></h4>
-                <h4><?php echo $statusEnergie;?></h4>
-                <h4><?php echo $statusHygiene;?></h4>
+                <h4><?php echo $statusHygiene; ?></h4>
+                <h4><?php echo $statusEnergie; ?></h4>
+                <h4><?php echo $statusHonger; ?></h4>
+                <h4><?php echo $statusFun; ?></h4>
+                <h4><?php echo $statusSocial; ?></h4>
             </div>
             <div class="col-md-3">
                 <section id="skills" class="skills">
@@ -99,9 +115,15 @@ if ($honger < 50 || $fun < 50 || $energie < 50 || $hygiene < 50)
                                 </div>
                             </div>
                             <div class="progress">
-                                <span class="skill">Blijdschap  <i class="val"><?php echo $fun?>%</i></span>
+                                <span class="skill">Fun  <i class="val"><?php echo $fun?>%</i></span>
                                 <div class="progress-bar-wrap">
                                     <div style="width: <?php echo $fun?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Social  <i class="val"><?php echo $social?>%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div style="width: <?php echo $social?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
