@@ -378,7 +378,16 @@ h1, h2, h3, h4, h5, h6 {
   animation: pulse 4s infinite;
 }
 
-
+@keyframes pulse
+{
+  from{
+    width: 100px;
+    height: 100px;}
+  to{
+    width: 300px;
+    height: 300px;
+  }
+}
 
 @media (max-width: 991px) {
   #hero .hero-img {
