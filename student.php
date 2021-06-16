@@ -3,6 +3,7 @@
 session_start();
 error_reporting(0);
 include_once 'func/database.func.php';
+include_once 'func/welcomemessage.func.php';
 if (!isset($_SESSION['userStudent']))
 {
     header("location: studentlogin.php");
@@ -89,8 +90,8 @@ if ($social < 50)
     <div class="container">
         <div class="row">
             <div style="text-align: center" class="col-xs-12">
-                <h1 style="margin-top: 10px;">Welkom Terug!</h1>
-                <h2 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['userStudent']?></h2>
+                <h1 style="margin-top: 10px;"><?php echo $welcome;?></h1>
+                <h1 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['userStudent']?></h1>
                 <h4><?php echo $statusHygiene; ?></h4>
                 <h4><?php echo $statusEnergie; ?></h4>
                 <h4><?php echo $statusHonger; ?></h4>
@@ -139,42 +140,43 @@ if ($social < 50)
                 <img src="assets/img/team/player.png">
             </div>
             <div class="col-xs-12" style="text-align: center">
-            <section id="skills" class="skills">
-                <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
-                    <h3 style="text-align: center">Dit zijn je statistieken van je wereld</h3>
-                    <div class="skills-content">
-                        <div class="progress">
-                            <span class="skill">C02 Uitstoot <i class="val"><?php echo $c02?>%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div style="width: <?php echo $c02?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <section id="skills" class="skills">
+                    <div class="col-xs-12 content"> <!--data-aos="fade-left"-->
+                        <h3 style="text-align: center">Dit zijn je statistieken van je wereld</h3>
+                        <div class="skills-content">
+                            <div class="progress">
+                                <span class="skill">C02 Uitstoot <i class="val"><?php echo $c02?>%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div style="width: <?php echo $c02?>%"  class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Watervervuiling <i class="val"><?php echo $watervervuiling?>%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div style="width: <?php echo $watervervuiling?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Zwerfafval<i class="val"><?php echo $zwerfafval?>%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div style="width: <?php echo $zwerfafval?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Criminaliteit <i class="val"><?php echo $criminaliteit?>%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div style="width: <?php echo $criminaliteit?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Groene Energie  <i class="val"><?php echo $groeneEnergie?>%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div style="width: <?php echo $groeneEnergie?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="progress">
-                            <span class="skill">Watervervuiling <i class="val"><?php echo $watervervuiling?>%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div style="width: <?php echo $watervervuiling?>%"  class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">Zwerfafval<i class="val"><?php echo $zwerfafval?>%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div style="width: <?php echo $zwerfafval?>%"  class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">Criminaliteit <i class="val"><?php echo $criminaliteit?>%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div style="width: <?php echo $criminaliteit?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">Groene Energie  <i class="val"><?php echo $groeneEnergie?>%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div style="width: <?php echo $groeneEnergie?>%" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-            </section>
+                </section>
+                <br>
             </div>
         </div>
     </div>

@@ -40,12 +40,12 @@ if ($_SERVER['REQUEST_METHOD']== 'POST')
 
         if ($conn ->query($sql) === true)
         {
-            $_SESSION['message'][] = "Leerling toegevoegd";
+            $_SESSION['messages'][] = "Leerling toegevoegd";
             header("location: teacher.php");
         }
         else
         {
-            $_SESSION['message'][] = "Er is iets foutgegaan, neem contact op met de admin";
+            $_SESSION['messages'][] = "Er is iets foutgegaan, neem contact op met de admin";
         }
     }
 }

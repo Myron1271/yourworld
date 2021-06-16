@@ -13,6 +13,9 @@
         header("location: student.php");
     }
 
+include_once 'func/welcomemessage.func.php';
+
+
 ?>
 
 <!doctype html>
@@ -45,7 +48,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Inloggen</title>
+    <title><?php echo $_SESSION['userAdmin']?> Account</title>
 
 </head>
 
@@ -60,16 +63,16 @@
     <div class="container">
         <div class="row">
             <div style="text-align: center" class="col-xs-12">
-                <h1 style="margin-top: 10px;">Welkom Terug!</h1>
-                <h2 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['userAdmin']?></h2>
+                <h1 style="margin-top: 10px;"><?php echo $welcome;?></h1>
+                <h1 style="color: #3cc187; margin-top: -14px;" class="user"><?= $_SESSION['userAdmin']?></h1>
             </div>
             <div class="col-md-5">
                 <form class="text-center col-md-12 rounded position-relative" style="background-color: #0000001f; height: 97%;" action="teacher.php" method="post" enctype="multipart/form-data">
                     <p style="color: #444444" class="FormText">Registreer leerlingen hier</p>
                     <div class="row">
 
-                        <?php foreach($_SESSION['messages'] as $message): ?><
-                            <div class="alert alert-danger col-md-8">
+                        <?php foreach($_SESSION['messages'] as $message): ?>
+                            <div class="alert alert-primary col-md-12" id="alert">
                                 <?= $message ?>
                             </div>
                         <?php endforeach; ?>
@@ -94,7 +97,7 @@
                 </form>
             </div>
             <div class="col-md-4 offset-3">
-                <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-12" type="submit" name="Submit_Registeren">Bekijk hier alle klassen</button>
+                <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-12" type="" h name="">Bekijk hier alle klassen</button>
             </div>
         </div>
     </div>
@@ -113,6 +116,25 @@
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+
+
+
+<script src=
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+</script>
+
+<!-- Including Bootstrap JS -->
+<script src=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</script>
+
+
+<script type="text/javascript">
+    setTimeout(function ()
+    {
+        $('#alert').alert('close');
+    }, 5000);
+</script>
 
 </body>
 </html>

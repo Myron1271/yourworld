@@ -1,5 +1,7 @@
 <?php
     session_start();
+
+    header( "Refresh:5; url=http://localhost/yourworld/teacher.php", true, 303);
 ?>
 
 <!DOCTYPE html>
@@ -372,7 +374,7 @@
                 <p> Heb je vragen, of wil je meer informatie over onze onderwijspakketen, neem dan vooral contact met ons op!</p>
             </div>
 
-            <div class="row">
+            <div style="margin-bottom: 10px;" class="row">
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-md-12">
