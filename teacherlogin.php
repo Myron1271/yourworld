@@ -44,7 +44,7 @@ if (isset($_SESSION['userAdmin']))
 <main>
     <br>
     <br>
-    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f;" action="func/login.func.php" method="post">
+    <form class="text-center p-5 col-md-4 offset-md-4 rounded position-relative" style="background-color: #0000001f;" action="./func/login.func.php" method="post">
         <p class="FormText mb-4">Inloggen Docent</p>
         <div class="row">
             <div class="col-md-8 offset-md-2">
