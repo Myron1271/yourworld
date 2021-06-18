@@ -1,7 +1,5 @@
 <?php
     session_start();
-
-    header( "Refresh:5; url=http://localhost/yourworld/teacher.php", true, 303);
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +50,7 @@
                 <h2 style="margin-left: 6px">Wij vinden het belangrijk om op jonge leeftijd al bewustzijn te creeëren.
                     We willen kinderen en jongeren stimuleren om verstandig met hun geld om te gaan,
                     en tegelijkertijd iets goeds te doen voor het klimaat.</h2>
-                <a href="download.php" class="btn-get-started scrollto">Aan de slag!</a>
+                <a href="index.php#pricing" class="btn-get-started scrollto">Aan de slag!</a>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
                 <img id="mainlogo" src="assets/img/hero-img.png" class="img-fluid" alt="">
