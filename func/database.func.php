@@ -1,8 +1,8 @@
 <?php
 
-$servername = "10.10.10.6:3306";
+$servername = "yourworldgame.nl";
 $username = "proftaak";
-$password = "Crufkrerbol2";
+$password = "U0o1#m1q";
 $dbname = "yourworld";
 
 
