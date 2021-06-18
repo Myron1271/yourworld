@@ -1,6 +1,6 @@
 <?php
 
-$servername = "yourworldgame.nl";
+$servername = "127.0.0.1";
 $username = "proftaak";
 $password = "U0o1#m1q";
 $dbname = "yourworld";
