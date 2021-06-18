@@ -16,7 +16,7 @@
         if (password_verify($Password_Login, $row['password']))
         {
             $_SESSION['userStudent'] = $Username_Login;
-            header("Location: http://localhost/yourworld/student.php");
+            header("Location: /student.php");
             exit();
         }
         else echo "Het ingevoerde wachtwoord klopt niet!";
