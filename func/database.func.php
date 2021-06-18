@@ -1,16 +1,10 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "yourworld";
-
-/*
-$servername = "145.220.75.78";
-$username = "applicatie";
+$servername = "10.10.10.6";
+$username = "proftaak";
 $password = "Crufkrerbol2";
 $dbname = "yourworld";
-*/
+
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
