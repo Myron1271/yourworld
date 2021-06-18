@@ -16,7 +16,7 @@
         if (password_verify($Password_Login, $row['password']))
         {
             $_SESSION['userAdmin'] = $Username_Login;
-            header("Location: /teacher.php");
+            header("Location: http://145.220.75.78/teacher.php");
             exit();
         }
         else echo "Het ingevoerde wachtwoord klopt niet!";
