@@ -371,14 +371,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/*#mainlogo
+#mainlogo
 {
-  margin-top: -100px;
+  margin-top: -80px;
   margin-left: 41px;
-  animation: pulse 4s infinite;
+ /* animation: pulse 4s infinite;*/
 }
 
-@keyframes pulse
+/*@keyframes pulse
 {
   from{
     width: 100px;

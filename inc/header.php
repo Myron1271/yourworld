@@ -22,7 +22,17 @@
                 <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
                 <li class="nav-item dropdown">
-                    <a class="account nav-link dropdown-toggle" href="#" id="Account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                    <a class="account nav-link dropdown-toggle" href="#" id="Account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?php if(isset($_SESSION['userAdmin'])): ?>
+                            <?= $_SESSION['userAdmin']; ?>
+                        <?php endif; ?>
+                        <?php if(isset($_SESSION['userStudent'])): ?>
+                            <?= $_SESSION['userStudent']; ?>
+                        <?php endif; ?>
+                        <?php if(!isset($_SESSION['userStudent']) && !isset($_SESSION['userAdmin'])): ?>
+                            Account
+                        <?php endif; ?>
+                    </a>
                     <div style="text-align: center; width: 130%" id="DropdownMenuShow" class="dropdown-menu animate__animated animate__flipInX" aria-labelledby="AccountIcon">
                         <?php if(!isset($_SESSION['userAdmin']) && !isset($_SESSION['userStudent'])): ?>
                             <a class="dropdown-item" id="NavBarTextDropDown" href="/teacherlogin.php">Inloggen Docent</a>
@@ -39,13 +49,5 @@
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
-        <script type="text/javascript">
-            var AccountName = '<?php echo $_SESSION['userAdmin'];?>';
-            document.getElementById('Account').innerHTML= AccountName;
-        </script>
-        <script type="text/javascript">
-            var AccountName = '<?php echo $_SESSION['userStudent'];?>';
-            document.getElementById('Account').innerHTML= AccountName;
-        </script>
     </div>
 
