@@ -115,7 +115,7 @@
         <div class="container">
 
             <div class="section-title">
-                <h2 data-aos="fade-in">Pricing</h2>
+                <h2 data-aos="fade-in">Prijzen</h2>
                 <p data-aos="fade-in">Ben je het niet zo eens met onze prijzen? Laat het ons dan gerust weten!</p>
             </div>
 
@@ -378,21 +378,21 @@
                         <div class="col-md-12">
                             <div class="info-box" data-aos="fade-up">
                                 <i class="bx bx-map"></i>
-                                <h3>Our Address</h3>
+                                <h3>Ons Address</h3>
                                 <p> Rachelsmolen 5612, 5623 PE Eindhoven </p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-envelope"></i>
-                                <h3>Email Us</h3>
+                                <h3>Email Ons</h3>
                                 <p>yourworld-fontys@outlook.com</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-phone-call"></i>
-                                <h3>Call Us</h3>
+                                <h3>Bel Ons</h3>
                                 <p>+31 0495 123456</p>
                             </div>
                         </div>

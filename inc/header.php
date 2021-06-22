@@ -18,6 +18,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+                <li><a class="nav-link scrollto" href="index.php#pricing">Prijzen</a></li>
                 <li><a class="nav-link scrollto" href="index.php#about">Over Ons</a></li>
                 <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
