@@ -186,6 +186,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
 }
 
+@media(max-width: 768px)
+{
+  #DropdownMenuShow
+  {
+    max-width: 0;
+  }
+}
+
 #DropdownMenuShow
 {
   margin-top: 4px;

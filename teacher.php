@@ -97,10 +97,38 @@ include_once 'func/welcomemessage.func.php';
                 </form>
             </div>
             <div class="col-md-4 offset-3">
-                <button style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-12" type="" h name="">Bekijk hier alle klassen</button>
+                <a style="background-color: #3cc187; border-color: #3cc187; color: #FFF" class="btn btn-info my-4 btn-block col-md-12" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Bekijk hier alle klassen</a>
+                <div class="collapse" id="collapseExample">
+                    <table class="table table-striped table-hover">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Klas</th>
+                            <th>Email</th>
+                        </tr>
+                        </thead>
+                        <?php
+                        $query = $conn->query("SELECT * FROM students ORDER by id");
+                        while($row = $query->fetch_array())
+                        {
+                            echo "<tr>";
+                            echo "<td>".$row['id']."</td> ";
+                            echo "<td>".$row['username']."</td> ";
+                            echo "<td>".$row['klas']."</td> ";
+                            echo "<td>".$row['email']."</td> ";
+                            echo "<br>";
+                            echo "</tr>";
+                        }
+                        ?>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
+
+
+
 </main>
 
 <!-- Vendor JS Files -->
